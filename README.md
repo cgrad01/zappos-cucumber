@@ -20,4 +20,4 @@ Or, to run one test at a time, use the tag feature like this:
 
     bundle exec cucumber --tag @tag_name
 
-Currently, these tests are driven using Firefox browser, so you may need to install this browser for the program to functoin properly.
+Currently, these tests are driven using Firefox browser, so you may need to install this browser for the program to function properly.

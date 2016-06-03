@@ -8,16 +8,16 @@ I researched the Page Object Model, and implemented this design pattern in Ruby 
   2. selenium-webdriver
   3. rspec-expectations
 
-In order to run this program, clone or download this repository, navigate into the folder, run ```shell
-bundle install
-```
+In order to run this program, clone or download this repository, navigate into the folder, run
 
-Then, to run all tests you can run '''shell
-bundle exec cucumber
-'''
+    bundle install
 
-Or, to run one test at a time, use the tag feature like this - '''shell
-bundle exec cucumber --tag @tag_name
-'''
+Then, to run all tests you can run:
+
+    bundle exec cucumber
+
+Or, to run one test at a time, use the tag feature like this:
+
+    bundle exec cucumber --tag @tag_name
 
 Currently, these tests are driven using Firefox browser, so you may need to install this browser for the program to functoin properly.
